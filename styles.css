@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Montserrat:ital,wght@0,400;0,700;1,400&family=Roboto+Mono:ital,wght@0,400;0,700;1,400&display=swap');
+
+ul.colors {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+ul.fonts {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+ul.colors li {
+  margin: 0.4em;
+  padding: 0.75em 3em;
+  list-style-type: none;
+}
+
+ul.fonts li {
+  margin: 0.4em;
+  padding: 0 0.5em;
+  list-style-type: none;
+}
+
+section {
+  border-radius: 1em;
+  border: 0.15em solid grey;
+  width: fit-content;
+  min-width: 20em;
+  margin-top: 1em;
+}
+
+li.navy-blue {
+  background-color: #18121E;
+  border-radius: 0.5em;
+}
+
+li.gunmetal {
+  background-color: #233237;
+  border-radius: 0.5em;
+}
+
+li.rusty-red {
+  background-color: #984B43;
+  border-radius: 0.5em;
+}
+
+li.warm-yellow {
+  background-color: #EAC67A;
+  border-radius: 0.5em;
+}
+
+p {
+  font-family: "Roboto Mono";
+}
+
+h1 {
+  font-family: Caveat;
+}
+
+h2 {
+  font-family: Montserrat;
+  margin: 0.5em;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 1.75em;
+  text-decoration: underline;
+}
+
+.montserrat {
+  font-family: Montserrat;
+}
+
+.roboto-mono {
+  font-family: "Roboto Mono";
+}
+
+.caveat {
+  font-family: Caveat;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.h1-example {
+  margin-left: 0.4em;
+}
+
+.h2-example {
+  margin-left: 0.4em;
+}
+
+.p-example {
+  margin-left: 0.8em;
+}
